@@ -2,13 +2,15 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
 }
-
+apply plugin: 'com.google.gms.google-services'
 android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "jmmh.bluelabs.m513"
+        applicationId "jmmh.thefive.m513"
         minSdk 23
         targetSdk 33
         versionCode 1
@@ -43,10 +45,14 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.0.1'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
+    //Google maps
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
     //ViewModel and LiveData
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
     // Lifecycle components
@@ -64,7 +70,7 @@ dependencies {
 
     //Coroutines
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0"
 
 
     //Bottom Bar
@@ -89,6 +95,29 @@ dependencies {
     //Rx
     implementation 'io.reactivex.rxjava2:rxjava:2.2.7'
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
-//Lottie
+
+    //Lottie
     implementation "com.airbnb.android:lottie:5.2.0"
+
+    //dagger hilt
+    implementation "com.google.dagger:hilt-android:2.43.1"
+    kapt "com.google.dagger:hilt-android-compiler:2.43.1"
+
+    //Room
+    implementation "androidx.room:room-ktx:2.4.0"
+    kapt "androidx.room:room-compiler:2.4.0"
+
+    /*Firebase
+    implementation platform('com.google.firebase:firebase-bom:30.2.0')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+    implementation 'com.google.firebase:firebase-database:16.0.1'*/
+    implementation platform('com.google.firebase:firebase-bom:30.2.0')
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    implementation 'com.google.firebase:firebase-database-ktx'
+
 }

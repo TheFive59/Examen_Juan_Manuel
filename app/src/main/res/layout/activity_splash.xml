@@ -6,7 +6,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/black"
+<<<<<<< HEAD
         tools:context=".SplashActivity">
+=======
+        android:id="@+id/main_layout"
+        tools:context=".view.ui.activity.SplashActivity">
+>>>>>>> cd1277c (Se elaboro una aplicación de peliculas consumiendo el api TMDB con ayuda de retrofit.)
     <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/splash_Image_View"
             android:layout_width="0dp"
@@ -19,7 +24,11 @@
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.215"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"/>
     <TextView
+<<<<<<< HEAD
             android:id="@+id/uno"
+=======
+            android:id="@+id/textStatus"
+>>>>>>> cd1277c (Se elaboro una aplicación de peliculas consumiendo el api TMDB con ayuda de retrofit.)
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Movies 513"

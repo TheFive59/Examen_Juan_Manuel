@@ -3,13 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1703125" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/drawable/ic_download_file.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/drawable/ic_find_jmmh.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/drawable/ic_home.xml" value="0.1703125" />
         <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23692307692307693" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/drawable/ic_location.xml" value="0.1687179487179487" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/drawable/ic_location_blue.xml" value="0.240625" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/drawable/ic_menu.xml" value="0.1687179487179487" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/drawable/ic_photos.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/drawable/ic_upload_file.xml" value="0.1687179487179487" />
         <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/font/alfa_slab_one.xml" value="0.2546875" />
         <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/activity_main.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/activity_maps.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/activity_movies513.xml" value="0.25" />
         <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/activity_popular_movie.xml" value="0.3443708609271523" />
         <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/activity_single_movie.xml" value="0.3024390243902439" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/dialog_information.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/fragment_details.xml" value="0.35" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/fragment_file_manager.xml" value="0.2390625" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/fragment_location.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/fragment_maps.xml" value="0.1" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/fragment_movies.xml" value="0.1" />
         <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/movie_list_item.xml" value="0.3524027459954233" />
         <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/layout/movie_now_playin_list_item.xml" value="0.10916919959473151" />
+        <entry key="..\:/Users/CINCOTRECE/IntelliJIDEAProjects/M513/app/src/main/res/menu/bottom_nav.xml" value="0.16979166666666667" />
       </map>
     </option>
   </component>
